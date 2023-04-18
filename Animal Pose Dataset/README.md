@@ -1,6 +1,4 @@
-# Information about the Animal Pose Dataset
-
-## Animal pose dataset 
+# Animal Pose Dataset
 
 [Source](https://sites.google.com/view/animal-pose/)  
 
