@@ -10,7 +10,7 @@ Dataset splits:
 
 [Paper](https://openaccess.thecvf.com/content_ICCV_2019/html/Cao_Cross-Domain_Adaptation_for_Animal_Pose_Estimation_ICCV_2019_paper.html)  
 
-This paper uses both pose-labeled human data and a (much smaller) pose-labeled animal dataset combined with a box-labeled animal dataset.  The idea is that there are skeletal similarites between the humans and animals that can be leveraged to improve model performance for animal pose estimation.  They also generate "psuedo" labels for similar (four-legged) animal domains not included in the dataset.  
+This paper uses both pose-labeled human data and a (much smaller) pose-labeled animal dataset combined with a box-labeled animal dataset.  The basic premise is that there are skeletal similarites between the humans and animals that can be leveraged to improve model performance for animal pose estimation.  They also generate "psuedo" labels for similar (four-legged) animal domains not included in the dataset which are incorporated into the model if they pass a filter for relability.  
 
 Citation
 
@@ -24,5 +24,5 @@ Citation
 
 ## Potential Annotation Tools
 
-[CVAT](https://github.com/opencv/cvat)
+[CVAT](https://github.com/opencv/cvat)  
 [jsbroks](https://github.com/jsbroks/coco-annotator)
