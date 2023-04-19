@@ -8,3 +8,8 @@
 ## Hosting locally
 
 [local](https://jax.readthedocs.io/en/latest/jax-101/06-parallelism.html#aside-hosts-and-devices-in-jax)
+
+## Setting up a training journal
+
+- Version by Soumik Rakshit
+[journal](http://wandb.me/jax-controlnet)
