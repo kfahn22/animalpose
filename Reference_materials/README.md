@@ -44,3 +44,11 @@
 --Humans
 [MediaPipe](https://developers.google.com/mediapipe/solutions/vision/pose_landmarker)
 
+## Recommandations from HF team
+
+- 1. Fine-tuning instead of training from scratch. If you're fine-tuning, you start from a strong base and diffusion models are quite easy to fine-tune
+- 2. If you have to train from scratch, keep the model small. Small models have faster iteration and are more stable. Dalle-mini was an amazing POC after the sprint, it was still undertrained, but it was a great base to start from.
+- 3. Use existing open-source implementations as much as possible. We have many training scripts in diffusers - adapt those for your use case
+- 4. Parallelize the tasks to a max. You can do many things in parallel: While one is constantly improving the data, another one takes care of getting the training up and running, another one else adds intermediate validation with W&B, another one is prepping the demo
+- 5. Ask questions if you're stuck early on. We can help you unblock you! 
+
