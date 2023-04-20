@@ -7,6 +7,8 @@
 
 ## Hosting locally
 
+[vsc](https://code.visualstudio.com/docs/remote/tunnels)
+
 [local](https://jax.readthedocs.io/en/latest/jax-101/06-parallelism.html#aside-hosts-and-devices-in-jax)
 
 ## Setting up a training journal
