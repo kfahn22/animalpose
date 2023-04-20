@@ -6,6 +6,9 @@
 
 [OpenPifPaf](https://openpifpaf.github.io/plugins_animalpose.html)
 
+
+https://stackoverflow.com/questions/65808972/defaulting-to-user-installation-because-normal-site-packages-is-not-writeable
+
 TODO:
 
 Add citation

@@ -15,3 +15,8 @@
 
 - Version by Soumik Rakshit
 [journal](http://wandb.me/jax-controlnet)
+
+## tmux
+[github](https://github.com/tmux/tmux/wiki)  
+[UMICH](https://teamdynamix.umich.edu/TDClient/47/LSAPortal/KB/ArticleDet?ID=1688)   
+[tutorial](https://www.hostinger.com/tutorials/tmux-beginners-guide-and-cheat-sheet/)
