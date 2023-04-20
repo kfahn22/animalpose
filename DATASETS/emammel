@@ -1,0 +1,20 @@
+##  Other datasets
+
+[Open Images Dataset V7](https://storage.googleapis.com/openimages/web/index.html)
+
+16M bounding boxes for 600 object classes on 1.9M images
+
+These are a labeled subset of the 80 million tiny images dataset
+
+[CIFAR-100](https://www.cs.toronto.edu/~kriz/cifar.html)
+
+
+From [Perspectives in machine learning for wildlife conservation](https://www.nature.com/articles/s41467-022-27980-y)
+
+These datasets contain camera captures.  My impression looking at the images on website is that the quality will not be good enough for a lot of them.
+
+## eMammal
+[](https://emammal.si.edu/)
+
+## Agouti
+[](https://www.agouti.eu/)
