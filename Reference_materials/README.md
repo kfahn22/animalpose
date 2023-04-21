@@ -41,8 +41,12 @@
 
 [Train control net with diffusors](https://huggingface.co/blog/train-your-controlnet)
 
+
+## Media Pipe
 --Humans
 [MediaPipe](https://developers.google.com/mediapipe/solutions/vision/pose_landmarker)
+
+https://github.com/huggingface/community-events/tree/main/jax-controlnet-sprint#prepare-a-dataset-with-mediapipe-and-hugging-face
 
 ## Recommandations from HF team
 

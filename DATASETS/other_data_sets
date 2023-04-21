@@ -5,7 +5,6 @@
 16M bounding boxes for 600 object classes on 1.9M images
 
 These are a labeled subset of the 80 million tiny images dataset
-
 [CIFAR-100](https://www.cs.toronto.edu/~kriz/cifar.html)
 
 
@@ -13,8 +12,30 @@ From [Perspectives in machine learning for wildlife conservation](https://www.na
 
 These datasets contain camera captures.  My impression looking at the images on website is that the quality will not be good enough for a lot of them.
 
+## SyDog
+[SyDog](https://mshooter.github.io/SyDog/)
+
 ## eMammal
 [](https://emammal.si.edu/)
 
 ## Agouti
 [](https://www.agouti.eu/)
+
+Filtering
+
+def filter_fn(x):
+    return tf.reduce_any(tf.equal(x['objects']['label'], 19))
+
+cows = data.filter(filter_fn)
+
+
+14 is bird
+15 is cat
+16 is dog
+17 is horse
+18 is sheep
+19 is cow
+20 is elephant
+21 is bear
+22 is zebra
+23 is giraffe
