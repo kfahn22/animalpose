@@ -1,0 +1,1 @@
+# This folder will contain animal images generated from Stable Diffusion.
